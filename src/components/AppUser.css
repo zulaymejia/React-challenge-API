@@ -1,79 +1,83 @@
 #root {
-    padding: 0;
-    
-  }
-  
-  .userbtn{
-    width: 80%;
-    height:80%;
-  }
-  
-  .profile-card-3 {
-    font-family: 'Open Sans', Arial, sans-serif;
-    position: relative;
-    float:inherit;
-    overflow: hidden;
-    width: 80%;
-    text-align: center;
-    height:520px;
-    border:none;
-  }
-  
-  .profile-card-3:hover {
-    box-shadow: 0 40px 130px rgba(0, 0, 0, 0.6);
-    -webkit-transform: scale(1.1, 1.1);
-    transform: scale(1.1, 1.1);
-    cursor: pointer;
-    width:95%;
-    height: 60vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    margin-top: 40px;
-    border-radius: 20px;}
-  
-  .profile-card-3 .background-block {
-    float: left;
-    width: 100%;
-    height: 280px;
-    overflow: hidden;
-  }
-  .profile-card-3 .background-block .background {
-  width:100%;
+  padding: 0;
+}
+
+.userbtn {
+  width: 80%;
+  height: 80%;
+}
+
+.profile-card-3 {
+  font-family: "Open Sans", Arial, sans-serif;
+  position: relative;
+  float: inherit;
+  overflow: hidden;
+  width: 80%;
+  text-align: center;
+  height: 520px;
+  border: none;
+}
+
+.profile-card-3:hover {
+  box-shadow: 0 40px 130px rgba(0, 0, 0, 0.6);
+  -webkit-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
+  cursor: pointer;
+  width: 95%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-family: sans-serif;
+  font-size: 16px;
+  margin-top: 40px;
+  border-radius: 20px;
+}
+
+.profile-card-3 .background-block {
+  float: left;
+  width: 100%;
+  height: 280px;
+  overflow: hidden;
+}
+
+.profile-card-3 .background-block .background {
+  width: 100%;
   vertical-align: top;
   opacity: 0.9;
   -webkit-filter: blur(0.5px);
   filter: blur(0.5px);
-   -webkit-transform: scale(1.8);
+  -webkit-transform: scale(1.8);
   transform: scale(2.8);
-  }
-  .profile-card-3 .card-content {
+}
+
+.profile-card-3 .card-content {
   width: 100%;
   padding: 15px 25px;
-  color:#232323;
-  float:left;
-  background:#efefef;
-  height:50%;
-  border-radius:0 0 5px 5px;
+  color: #232323;
+  float: left;
+  background: #efefef;
+  height: 50%;
+  border-radius: 0 0 5px 5px;
   position: relative;
   z-index: 9999;
-  }
-  .profile-card-3 .card-content::before {
-    content: '';
-    background: #efefef;
-    width: 120%;
-    height: 100%;
-    left: 11px;
-    bottom: 51px;
-    position: absolute;
-    z-index: -1;
-    transform: rotate(-13deg);
-  }
-  .profile-card-3 .profile {
+}
+
+.profile-card-3 .card-content::before {
+  content: "";
+  background: #efefef;
+  width: 120%;
+  height: 100%;
+  left: 11px;
+  bottom: 51px;
+  position: absolute;
+  z-index: -1;
+  transform: rotate(-13deg);
+}
+
+.profile-card-3 .profile {
   border-radius: 50%;
   position: absolute;
   bottom: 50%;
@@ -84,119 +88,97 @@
   border: 2px solid rgba(255, 255, 255, 1);
   -webkit-transform: translate(-50%, 0%);
   transform: translate(-50%, 0%);
-  z-index:99999;
-  }
-  .profile-card-3 p {
+  z-index: 99999;
+}
+
+.profile-card-3 p {
   margin: 0 0 5px;
   font-weight: 600;
-  
-  }
-  
-  .profile-card-3 i {
+}
+
+.profile-card-3 i {
   display: inline-block;
-    font-size: 16px;
-    color: #232323;
-    text-align: center;
-    border: 1px solid #232323;
-    width: 50px;
-    height: 50px;
-    line-height: 45px;
-    border-radius: 60%;
-    margin:0 5px;
-  }
-  .profile-card-3 .icon-block{
-    float:left;
-    width:100%;
-    margin-top:15px;
-  }
-  .profile-card-3 .icon-block a{
-    text-decoration:none;
-  }
-  .profile-card-3 i:hover {
-  background-color:#232323;
-  color:#fff;
-  text-decoration:none;
-  }
-  
-  
-  .head {
-    
-    min-height: 100px;
-    background-image: url('https://png.pngtree.com/thumb_back/fw800/back_our/20190619/ourmid/pngtree-blue-glow-background-business-card-design-template-image_132608.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  .head-text{
-  text-align:center; 
-  font-family: Arial Black; 
-  font-weight: bold; 
-  font-size: 30px; 
-  color: #fff; 
-  text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+  font-size: 16px;
+  color: #232323;
+  text-align: center;
+  border: 1px solid #232323;
+  width: 50px;
+  height: 50px;
+  line-height: 45px;
+  border-radius: 60%;
+  margin: 0 5px;
+}
+
+.profile-card-3 .icon-block {
+  float: left;
+  width: 100%;
+  margin-top: 15px;
+}
+.profile-card-3 .icon-block a {
+  text-decoration: none;
+}
+
+.profile-card-3 i:hover {
+  background-color: #232323;
+  color: #fff;
+  text-decoration: none;
+}
+
+.profile-thumb-block.img {
+  width: 50;
+}
+
+.head {
+  min-height: 100px;
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190619/ourmid/pngtree-blue-glow-background-business-card-design-template-image_132608.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.head-text {
+  text-align: center;
+  font-family: sans-serif Black;
+  font-weight: bold;
+  font-size: 30px;
+  color: #fff;
+  text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa,
+    0 5px 0 #acacac, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+    0 20px 20px rgba(0, 0, 0, 0.15);
   letter-spacing: 5px;
-    text-align: center;
-    text-transform: uppercase;
-    width: 100%;
-    animation: move linear 2000ms infinite;
-    z-index: 2
-  
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  animation: move linear 2000ms infinite;
+  z-index: 2;
+}
+
+@keyframes move {
+  0% {
+    text-shadow: 4px -4px 0 #e2bf36, 3px -3px 0 #e2bf36, 2px -2px 0 #e2bf36,
+      1px -1px 0 #e2bf36, -4px 4px 0 #d0dedf, -3px 3px 0 #d0dedf,
+      -2px 2px 0 #d0dedf, -1px 1px 0 #d0dedf;
   }
-  
-  @keyframes move {
-      0% {
-        text-shadow:
-          4px -4px 0 #e2bf36,
-          3px -3px 0 #e2bf36,
-          2px -2px 0 #e2bf36,
-          1px -1px 0 #e2bf36,
-          -4px 4px 0 #d0dedf,
-          -3px 3px 0 #d0dedf,
-          -2px 2px 0 #d0dedf,
-          -1px 1px 0 #d0dedf;
-      }
-      25% {
-        text-shadow:
-          -4px -4px 0 #d0dedf,
-          -3px -3px 0 #d0dedf,
-          -2px -2px 0 #d0dedf,
-          -1px -1px 0 #d0dedf,
-          4px 4px 0 #e2bf36,
-          3px 3px 0 #e2bf36,
-          2px 2px 0 #e2bf36,
-          1px 1px 0 #e2bf36;
-      }
-      50% {
-        text-shadow:
-          -4px 4px 0 #e2bf36,
-          -3px 3px 0 #e2bf36,
-          -2px 2px 0 #e2bf36,
-          -1px 1px 0 #e2bf36,
-          4px -4px 0 #d0dedf,
-          3px -3px 0 #d0dedf,
-          2px -2px 0 #d0dedf,
-          1px -1px 0 #d0dedf;
-      }
-      75% {
-        text-shadow:
-          4px 4px 0 #d0dedf,
-          3px 3px 0 #d0dedf,
-          2px 2px 0 #d0dedf,
-          1px 1px 0 #d0dedf,
-          -4px -4px 0 #ebd065,
-          -3px -3px 0 #e2bf36,
-          -2px -2px 0 #e2bf36,
-          -1px -1px 0 #e2bf36;
-      }
-      100% {
-        text-shadow:
-          4px -4px 0 #e2bf36,
-          3px -3px 0 #e2bf36,
-          2px -2px 0 #e2bf36,
-          1px -1px 0 #e2bf36,
-          -4px 4px 0 #d0dedf,
-          -3px 3px 0 #a2e5e9,
-          -2px 2px 0 #b0ced0,
-          -1px 1px 0 #91d8dc;
-      }
-    }
+  25% {
+    text-shadow: -4px -4px 0 #d0dedf, -3px -3px 0 #d0dedf, -2px -2px 0 #d0dedf,
+      -1px -1px 0 #d0dedf, 4px 4px 0 #e2bf36, 3px 3px 0 #e2bf36,
+      2px 2px 0 #e2bf36, 1px 1px 0 #e2bf36;
+  }
+  50% {
+    text-shadow: -4px 4px 0 #e2bf36, -3px 3px 0 #e2bf36, -2px 2px 0 #e2bf36,
+      -1px 1px 0 #e2bf36, 4px -4px 0 #d0dedf, 3px -3px 0 #d0dedf,
+      2px -2px 0 #d0dedf, 1px -1px 0 #d0dedf;
+  }
+  75% {
+    text-shadow: 4px 4px 0 #d0dedf, 3px 3px 0 #d0dedf, 2px 2px 0 #d0dedf,
+      1px 1px 0 #d0dedf, -4px -4px 0 #ebd065, -3px -3px 0 #e2bf36,
+      -2px -2px 0 #e2bf36, -1px -1px 0 #e2bf36;
+  }
+  100% {
+    text-shadow: 4px -4px 0 #e2bf36, 3px -3px 0 #e2bf36, 2px -2px 0 #e2bf36,
+      1px -1px 0 #e2bf36, -4px 4px 0 #d0dedf, -3px 3px 0 #a2e5e9,
+      -2px 2px 0 #b0ced0, -1px 1px 0 #91d8dc;
+  }
+}

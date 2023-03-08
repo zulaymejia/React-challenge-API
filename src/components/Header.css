@@ -1,35 +1,40 @@
 header {
-	position:relative;
-	left:0;
-	top:0;
-	width:100%;
-	min-height:120px;
-	padding:50px 0;
-	color:#fff;
-	    background: #fff url(https://www.athenadesignstudio.com/plugins/switch/images/bg.jpg) no-repeat center center;
-	margin-bottom:30px
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  min-height: 120px;
+  padding: 50px 0;
+  color: #fff;
+  background: #fff
+    url(https://www.athenadesignstudio.com/plugins/switch/images/bg.jpg)
+    no-repeat center center;
+  margin-bottom: 30px;
 }
 
 /* Logo */
 header .logo {
-	clear:both;
-    display:block;
-	text-align:center;
-    padding-bottom:10px;
+  clear: both;
+  display: block;
+  text-align: center;
+  padding-bottom: 10px;
 }
 
 /* Title */
 header h1 {
-    font-weight:300;
-    font-size:24px;
-    color:#040841;	
-	letter-spacing:2px;
-	text-align:center;
-	text-transform:uppercase;
-	margin:0 !important;
-	padding-bottom:25px;
+  font-family: "Amaranth", sans-serif;
+  font-family: "Coustard", serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  color: #040841;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 !important;
+  padding-bottom: 25px;
 }
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900|Open Sans:400,600,800');
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900|Open Sans:400,600,800");
 h1,
 h2,
 h3,
@@ -40,16 +45,16 @@ div,
 input,
 p,
 a {
-    font-family: "Open Sans";
-    margin: 0px;
+  font-family: "Open Sans";
+  margin: 0px;
 }
 
 a,
 a:hover,
 a:focus {
-    color: inherit;
+  color: inherit;
 }
 
 body {
-    background-color: #F1F2F3;
+  background-color: #f1f2f3;
 }
